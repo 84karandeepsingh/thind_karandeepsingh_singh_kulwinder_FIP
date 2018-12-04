@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+}	
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #ccc;
+}
+
+a:link, a:visited { 
+text-decoration:none; 
+}
+
+a:hover, a:active { 
+text-decoration:none; 
+ }
+
+ .hidden
+{
+	display: none;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#mainHeader
+{
+	height: 160px;
+	width: 960px; 
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#logoHeader
+{
+	float: left;
+	margin-top: 42px;
+	margin-left: 20px;
+	width: 155px;
+	height: 82px;
+	
+}
+
+#mainNav
+{
+	width: 560px;
+	float: right;
+	margin-right: 15px; 
+}
+
+#mainNav ul
+{
+	margin-top: 90px;
+	float: right;
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li {	
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+#mainNav ul li a
+{
+	color: #2073a8;
+	padding: 5px;
+}
+
+#slides
+{	
+	overflow: hidden;
+	padding: 30px 20px 0px 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#headerImage {
+	margin-left: 20px;
+}
+
+#building
+{
+	width: 410px;
+	float: left;
+	margin-right: 80px; 
+}
+
+#redLeafs
+{
+	width: 410px;
+	float: left;
+	margin-right: 20px;
+}
+
+#slides p
+{
+	margin-top: 20px;
+	line-height: 22px;
+	color: #666;
+	font-size: 16px;
+}
+
+
+#mainFooter
+{
+	height: 180px;
+	width: 960px;
+	background-color: #d4dee5;
+}
+
+#logoFooter
+{
+	margin-top: 40px;
+	float: left;
+	margin-bottom: 20px; 
+	margin-left: 40px;
+}
+
+#socialMediaCon
+{
+	float: right;
+	width: 175px;
+	height: 45px;
+	margin-top: 40px;
+}
+
+#iconNav
+{
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+#iconNav li
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#iconNav a
+{
+	display:block; 
+	height: 45px; 
+	width: 45px;
+}
+
+#facebook
+{
+	background:url('../images/facebook.svg') no-repeat 0 0;
+}
+
+#twitter
+{
+	background:url('../images/twitter.svg') no-repeat 0 0;
+}
+
+#youtube
+{
+	background:url('../images/youtube.svg') no-repeat 0 0;
+}
+
+#footerNav
+{
+	clear: both;
+	margin-left: 40px;
+}
+
+#footerNav ul
+{
+	padding: 0;
+	list-style-type: none;
+	width: 500px;
+	margin-left: 0;
+}
+
+#footerNav ul li 
+{	
+	cursor: pointer;
+	display: inline;
+	margin-right: 40px;
+	font-size: 17px;	
+}
+
+#footerNav ul li a {
+	color: #333;
+}
+
+#footerNav ul li a:hover {
+	color: #999;
+}
+
+/*about page*/
+
+#promoSlides{
+	width: 960px;
+	margin-bottom: 40px;
+	padding-top: 20px;	
+}
+
+#promoSlides h2{
+   font-size: 24px;
+	color: #401b02;
+	margin-bottom: 40px;
+	padding-left: 30px;
+}
+
+#promoText{
+	width: 600px;
+	margin-left: 20px;
+	float: left;
+	margin-right: 30px;
+}
+
+#mainGallery{
+	padding-top: 40px;
+	width: 960px;
+	margin-bottom: 40px;
+	margin-left: 32px;
+}
+
+.galleryImage{
+	float: left;
+	width: 200px;
+	margin-right:  32px;
+	}
+
+.galleryImageLast{
+}
+
+
+
+
+
+/*contact page*/
+
+#mainContact
+{
+	overflow: hidden;
+	width: 960px;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#mainContact h2
+{
+	font-size: 24px;
+	color: #401b02;
+	margin-bottom: 40px;
+	padding: 8px 0px 8px 5px;
+}
+
+
+#contactArea {
+	width: 469px;
+	float: left;
+	border-right: solid 1px #CCC;
+	margin-bottom: 30px;
+}
+
+
+#contactText {
+	font-size: 21px;
+	margin-bottom: 30px;
+	width: 340px;
+}
+
+#contactForm{
+	margin-top: 30px;
+}
+
+fieldset {
+	border: none;
+	padding: 0px;
+}
+
+
+input, textarea  {
+	font-size: 11px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 10px;
+	background-color: #efefef;
+	display: block;
+	border: 1px solid #999;
+	color: #333;
+}
+
+#comments
+{
+	width: 360px;
+	height: 200px;
+}
+
+#submit
+{
+	display: block;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+	margin-top: 30px;
+	color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #2073a8;
+	font-size: 14px;
+	border: 1px solid #003471;
+}
+
+#officeAdd
+{
+	float: left;
+	width: 380px;
+	margin-left: 90px;
+}
+
+
+#officeAdd h3
+{
+	font-size: 21px;
+	margin-top: 0;
+	color: #2073a8;
+}
+
+#officeAdd ul
+{
+	list-style-type: none;
+	padding: 0;
+}	
+
+/*about us page */
+
+
+#imageRow {
+	width: 960px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.imageOne{
+	float: left;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+#contentArea{
+	width: 920px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
